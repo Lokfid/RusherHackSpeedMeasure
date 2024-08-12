@@ -68,7 +68,7 @@ public class SpeedMeasureModule extends ToggleableModule {
 			return;
 		}
 		double estimatedTime = distance / this.lastSpeed;
-		ChatUtils.print("Esitmated Time: %s".formatted(new Object[] { convertMillisecondsToHHMMSS((int)(estimatedTime * 1000.0D), 0L) }));
+		ChatUtils.print("Estimated Time: %s".formatted(new Object[] { convertMillisecondsToHHMMSS((int)(estimatedTime * 1000.0D), 0L) }));
 	}
 
 	private String convertMillisecondsToHHMMSS(long time1, long time2) {

@@ -2,7 +2,7 @@
   "Plugin-Class": "org.lokfid.SpeedMeasurePlugin",
   "Name": "SpeedMeasurePlugin",
   "Version": "${plugin_version}",
-  "Description": "Example rusherhack plugin",
+  "Description": "rusherhack to measure speed",
   "Authors": [
     "IceTank",
     "Reversed By Lokfid"

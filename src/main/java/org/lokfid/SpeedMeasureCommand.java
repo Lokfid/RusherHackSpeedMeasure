@@ -11,11 +11,6 @@ public class SpeedMeasureCommand extends Command {
 		super("Measure", "Measure");
 	}
 
-	@CommandExecutor
-	private String example() {
-		return "Hello World!";
-	}
-
 	@CommandExecutor(subCommand = {"start"})
 	private String startMeasure() {
 		RusherHackAPI.getModuleManager().getFeature("SpeedMeasure").ifPresent(speedMeasureModule -> {
